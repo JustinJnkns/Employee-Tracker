@@ -1,0 +1,27 @@
+{
+  "name": "Employee-Tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db": "sqlite3 db/employees.db",
+    "migrate": "sqlite3 db/employees.db < db/schema.sql",
+    "seed": "sqlite3 db/employees.db < db/seeds.sql",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinJnkns/Employee-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustinJnkns/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/JustinJnkns/Employee-Tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.1"
+  }
+}
