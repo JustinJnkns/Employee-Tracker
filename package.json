@@ -22,6 +22,8 @@
   "homepage": "https://github.com/JustinJnkns/Employee-Tracker#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "inquirer": "^7.3.3",
+    "mysql2": "^2.2.5",
     "sqlite3": "^5.0.1"
   }
 }
